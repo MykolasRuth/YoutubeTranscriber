@@ -1,0 +1,13 @@
+.env
+.pid
+app.log
+videos.db
+__pycache__/
+*.pyc
+.menubar.pid
+.venv-menubar/
+.venv/
+data/
+.claude/
+*.log
+.DS_Store

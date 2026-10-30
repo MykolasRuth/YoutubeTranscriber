@@ -1,0 +1,11 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+youtube-transcript-api==1.2.4
+google-genai==1.12.1
+python-dotenv==1.0.1
+httpx==0.28.1
+pydantic==2.10.3
+aiofiles==24.1.0
+yt-dlp==2026.3.17
+faster-whisper>=1.1.0
+rumps>=0.4.0

@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      VIDEOS_DB_PATH: /app/data/videos.db
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
